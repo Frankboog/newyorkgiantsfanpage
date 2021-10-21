@@ -1,0 +1,357 @@
+/* NY Giants Fan Page Style Sheet - Frank James */
+              body { background-color: #FFFFFF;
+                     color: #666666;
+                     font-family: Arial, Helvetica, sans-serif; }
+            header { background-color: #0B2265;
+                     color: #FFFFFF;
+                     text-align: center; }
+               nav { background-color: #A5ACAF;
+                     font-size: 100%;
+                     font-weight: bold;
+                     text-align: center; }
+            nav ul { list-style-type: none;
+                     font-size: 125%;
+                     margin: 0;
+                     padding-left: 0; }
+         nav ul li { border-bottom: 1px solid #002171;
+                     padding-bottom: 0.25em;
+                     padding-top: 0.25em; }
+              main { margin-top: 0;
+                     padding: 10px 20px 10px 20px; }
+           main ul { list-style-image: url('graphics/marker.gif'); }
+        main ol li { color: darkblue; 
+                     font-size: 130%;
+                     font-weight: bold; }
+                h1 { background-image: linear-gradient(to bottom, #0B2265, #0B2101);
+                     font-family: Georgia, 'Times New Roman', serif;
+                     letter-spacing: 0.25em;
+                     margin: 0;
+                     padding-bottom: 0.25em;
+                     padding-top: 0.25em;
+                     text-shadow: 1px 1px 1px #000000; }
+                h2 { background-color: #A71930;
+                     color: #FFFFFF;
+                     display: flex;
+                     flex-direction: column;
+                     font-family: Georgia, 'Times New Roman', serif;
+                     font-size: 175%;
+                     padding: 1em;
+                     margin: 0;
+                     text-align: center;
+                     text-shadow: 1px 1px 1px #CCCCCC; }
+                h3 { border: 2px solid #0B2265;
+                     border-radius: 5px;
+                     color: #A71930;
+                     padding-left: 1em; }
+                h4 { color: #A71930;
+                     font-size: 150%;
+                     font-weight: bold;
+                     margin: 0 0 20px 0;
+                     text-align: center;
+                     text-shadow: 1px 1px 1px #CCCCCC; }
+            h5, h6 { background-image: url(graphics/opening-day-board.jpg);
+                     background-repeat: no-repeat;
+                     background-size: 100% 100%;
+                     color: goldenrod;
+                     font-family: Georgia, 'Times New Roman', serif;
+                     font-size: 130%;
+                     height: 55px;
+                     margin: 0;
+                     padding: 9% 0 0 0;
+                     text-align: center;
+                     text-shadow: 1px 1px 1px #000000; }
+                h6 { background-image: url(graphics/opening-day-board-red.jpg); }
+                dt { color: #002171;
+                     font-weight: bold;
+                     margin: 15px 0 0 0; }
+                dd { color: #000000;
+                     font-weight: lighter;
+                     margin: 0;
+                     text-align: left; }
+             table { border: 1px solid #0B2265;
+                     border-collapse: collapse;
+                     font-size: 80%;
+                     width: 100%; }
+table:last-of-type { margin-bottom: 40px; }
+             thead { background-color: #D3D3D3;
+                     border-bottom: 2px solid #0B2265; }
+          thead th { border: 1px dotted #0B2265; }
+            td, th { border: 1px solid #D3D3D3;
+                     padding: 0.5em; }
+                th { text-align: center; }
+             tfoot { background-color: #D3D3D3;
+                     font-size: 75%;
+                     font-weight: bolder; }
+           caption { color: #A71930;
+                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                     font-size: 130%;
+                     padding: 0.5em;
+                     text-shadow: 1px 1px 1px #D3D3D3; }
+              form { display: grid;
+                     grid-gap: .6em;
+                     grid-template-columns: 1fr;
+                     grid-template-rows: auto;
+                     width: 100%; }
+   input, textarea { margin-bottom: .5em; }
+input[type="date"] { width: 10em; }
+input[type="number"] { width: 10em; }
+            footer { background-color: #A5ACAF;
+                     color: #FFFFFF;
+                     font-family: Georgia, 'Times New Roman', serif;
+                     font-size: 75%;
+                     font-style: italic;
+                     padding: 2em;
+                     text-align: center; }
+            iframe { border: none;
+                     display: block;
+                     margin-left: auto;
+                     margin-right: auto;
+                     width: 100%; }
+      hr.line-hist { border-top: 2px solid #A5ACAF;
+                     border-radius: 5px;
+                     margin-bottom: 0;
+                     margin-top: 50px; }
+      hr.line-team { border-top: 2px solid #A5ACAF;
+                     border-radius: 5px;
+                     margin-bottom: 0;
+                     margin-top: 40px; }
+        img.helmet { height: 70px;
+                     width: 70px; }
+ section.nicknames { font-size: 90%;
+                     margin: 40px 0;
+                     padding: 0 2em;
+                     width: 80%; }
+section.media-section { 
+                     margin: 40px 0;
+                     padding: 0 2em;
+                     width: 80%; }
+    div.wrap-media { align-items: center;
+                     border: 3px solid #A71930;
+                     border-radius: 15px 15px 5px 5px;
+                     box-shadow: 3px 3px 3px #333333;
+                     display: flex;
+                     flex-direction: column;
+                     overflow: hidden;
+                     }
+    p.media-text { color: #666666; padding: 2em; }
+/* NY Giants CLASSES */
+                     .alrow { background-color: #F5F5DC; }
+                     .board { padding: 0 2em;
+                              width: 80%; }
+                  .board dl { line-height: 1.5em; }
+                .board-hist { padding: 0 2em;
+                              width: 85%; }
+                .board-home { font-family: 'Times New Roman', Times, serif;
+                              font-size: 100%;
+                              padding: 1em 1em 0em 1em; 
+                              text-align: left; }
+              .board-home p { margin: 0; }
+            .board-home img { float: left;
+                              padding-right: 0.5em; }
+               .board-stats { background-color: #F8F8FF;
+                              border-radius: 5%;
+                              box-shadow: 3px 3px 3px #000000;
+                              color: #000000;
+                              font-family: Arial, Helvetica, sans-serif;
+                              font-size: 90%;
+                              height: 350px;
+                              margin: 0 15% 3% 15%;
+                              overflow: hidden;
+                              padding:0;
+                              text-align: center;
+                              width: 70%; }
+            .board-stats dl { margin: 0; }
+            .board-stats dt { color: #000000;
+                              font-weight: bold;
+                              margin-top: 5px; }
+.board-stats dt:first-child { margin-top: 14%; }
+            .board-stats dd { color: #000000;
+                              font-weight: lighter;
+                              margin: 0;
+                              text-align: center; }
+                   .content { margin-bottom: 5%;
+                              margin-top: 5%;
+                              text-align: center; }
+                    .giants { color: #0000FF; }
+                  .headline { color: goldenrod;
+                              margin-bottom: 20px;
+                              padding-bottom: 20px;
+                              text-decoration: underline;
+                              line-height: 40px; }
+                      .huge { font-size: 2em; }
+                      .loss { color: #FF0000; }
+                      .media-header { color: #000000; font-weight: bold;}
+                 .sb-result { color: #0000FF;
+                              text-align: center; }
+                   .sb-loss { color: #FF0000;
+                              text-align: center; }
+                    .signup { background-color: #A71930;
+                              color: #FFFFFF;
+                              font-family: Georgia, 'Times New Roman', Times, serif;
+                              font-size: 130%;
+                              letter-spacing: 0.25em;
+                              padding: 1.5em;
+                              text-align: center; }
+                       .win { color: #0000FF; }
+/* NY Giants ID */
+  #historyhero { background-image: url(graphics/elihero-small.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100% 100%;
+                 height: 300px; }
+     #homehero { background-image: url(graphics/homehero-small.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100% 100%;
+                 height: 300px; }
+ #schedulehero { background-image: url(graphics/schedulehero-small.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100% 100%;
+                 height: 300px; }
+     #teamhero { background-image: url(graphics/teamhero-small.jpg);
+                 background-repeat: no-repeat;
+                 background-size: 100% 100%;
+                 height: 300px; }
+      #wrapper { background-color: #FFFFFF;
+                 border-radius: 5px;
+                 overflow: hidden; }
+/* NY Giants LINKS */
+             header a { text-decoration: none; }
+        header a:link { color: #FFFFFF; }
+     header a:visited { color: #FFFFFF; }   
+       header a:hover { color: #A71930; }
+      header a:active { color: #FF0000; }
+                 h2 a { float: right; font-size: 50%; text-decoration: none; transition: color 2s, font-size 400ms; }
+            h2 a:link { color: #FFFFFF; }
+         h2 a:visited { color: #FFFFFF; }
+           h2 a:hover { color: #87CEEB; font-size: 100%; }
+          h2 a:active { color: #FF0000; }
+                nav a { text-decoration: none; }
+           nav a:link { color: #FFFFFF; } 
+        nav a:visited { color: #FFFFFF; }            
+          nav a:hover { color: #A71930; }
+         nav a:active { color: #FF0000; }
+            .signup a { text-decoration: none; transition: color 3s, font-size 700ms; }
+       .signup a:link { color: #FFFFFF; } 
+    .signup a:visited { color: #FFFFFF; }            
+      .signup a:hover { color: #87CEEB; font-size: 130%; font-weight: bold; }
+     .signup a:active { color: #FF0000; }
+         a.email:link { color: #FFFFFF; }
+      a.email:visited { color: #FF0000; }
+        a.email:hover { color: #FF0000; }
+       a.email:active { color: #A71930; } 
+/* NY Giants MEDIA QUERY 600 */
+@media (min-width: 600px) {
+      .board-hist { width: 90%; }
+     .board-stats { font-size: 85%;
+                    height: 350px;
+                    margin: 0 0 3% 5%;
+                    padding:0;
+                    width: 90%; }
+     #historyhero { background-image: url(graphics/elihero.jpg); }
+        #homehero { background-image: url(graphics/stadium.jpg); }
+    #schedulehero { background-image: url(graphics/fans.jpg); }
+        #teamhero { background-image: url(graphics/team.jpg); }
+             main { background-color: #F8F8FF; }
+               h1 { background-image: linear-gradient(to bottom, transparent, transparent);
+                    letter-spacing: 0.25em;
+                    margin: 0;
+                    padding-bottom: 0.50em;
+                    padding-top: 0.50em; }
+           nav ul { display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-around; }
+        nav ul li { border-bottom: none; }
+          section { padding-left: 0;
+                    padding-right: 0; }
+       img.helmet { height: 52px;
+                    width: 52px; }
+      div.content { display: grid;
+                    grid-template-rows: auto;
+                    grid-template-columns: 1fr 1fr; }
+section #section1 { grid-row: 1 / 2; grid-column: 1 / 2; }
+section #section2 { grid-row: 1 / 2; grid-column: 2 / 3; }
+section #section3 { grid-row: 2 / 3; grid-column: 1 / 2; }
+section #section4 { grid-row: 2 / 3; grid-column: 2 / 3; }
+             form { grid-gap: 1.5em;
+                    grid-template-columns: 6em 1fr;
+                    width: 80%; }
+input[type="submit"] { grid-row: auto; grid-column: 2 / 3;
+                    width: 9em; }
+           output { grid-row: auto; grid-column: 2 / 3;
+                    width: 9em; }
+}
+/* NY Giants MEDIA QUERY 800 */
+@media (min-width: 800px) {
+        #section4 { display: none; }
+   div.wrap-media { flex-direction: row; }
+      div.content { display: grid;
+                    grid-template-rows: auto;
+                    grid-template-columns: 1fr 1fr 1fr; }
+section #section1 { grid-row: 1 / 2; grid-column: 1 / 2; }
+section #section2 { grid-row: 1 / 2; grid-column: 2 / 3; }
+section #section3 { grid-row: 1 / 2; grid-column: 3 / 4; }
+section #section4 { grid-row: 2 / 3; grid-column: 2 / 3; }
+             form { width: 60%; }
+            video { padding: 0 0 2em 2em; }
+}
+/* NY Giants MEDIA QUERY 1024 */
+@media (min-width: 1024px) {
+      .board-home { width: 80%;  }
+        #section4 { display: initial; }
+           body   { background-image: linear-gradient(to bottom, #A5ACAF, #FFFFFF); }
+           header { background-image: url(graphics/logo-blue.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;             
+                    height: 100px;
+                    padding-top: 5px; }
+               h1 { letter-spacing: 0.25em;
+                    padding-bottom: 0;
+                    padding-top: 25px; }
+               h2 { background-image: url(graphics/coach.jpg);
+                    background-position: right;
+                    background-repeat: no-repeat;
+                    background-size: 70% 100%; display: inline;
+                    padding-left: 3.5em;
+                    text-align: left; }
+             h2 a { font-size: 70%; }
+              nav { background-image: linear-gradient(to bottom, #0B2265, #A71930);
+                    padding-left: 2.5em;
+                    text-align: left;
+                    text-shadow: 1px 1px 1px #000000; }
+           nav ul { flex-direction: column;
+                    padding-top: 1em; }
+         #wrapper { border: 1px solid #002171;
+                    box-shadow: 3px 3px 3px #333333;
+                    display: grid;
+                    grid-template-columns: 190px auto;
+                    grid-template-rows: auto;
+                    margin: auto;
+                    width: 80%; }
+           header { grid-row: 1 / 2; grid-column: 1 / 3; }
+              nav { grid-row: 3 / 7; grid-column: 1 / 2; }
+               h2 { grid-row: 2 / 3; grid-column: 1 / 3; }
+     div.homehero { grid-row: auto; grid-column: 2 / 3; }
+             main { grid-row: auto; grid-column: 2 / 3; }
+       div.signup { grid-row: auto; grid-column: 2 / 3; }
+           footer { grid-row: auto; grid-column: 2 / 3; }
+      div.content { grid-template-columns: 1fr 1fr; }
+section #section1 { grid-row: 1 / 2; grid-column: 1 / 2; }
+section #section2 { grid-row: 1 / 2; grid-column: 2 / 3; }
+section #section3 { grid-row: 2 / 3; grid-column: 1 / 2; }
+section #section4 { grid-row: 2 / 3; grid-column: 2 / 3; }
+             form { width: 80%; }
+   div.wrap-media { flex-direction: column; }
+            video { padding: 0; }
+}
+/* NY Giants MEDIA QUERY 1199 */
+@media (min-width: 1199px) {
+      .board-hist { width: 93%; }
+        #section4 { display: none; }
+      div.content { grid-template-columns: 1fr 1fr 1fr; }
+section #section1 { grid-row: 1 / 2; grid-column: 1 / 2; }
+section #section2 { grid-row: 1 / 2; grid-column: 2 / 3; }
+section #section3 { grid-row: 1 / 2; grid-column: 3 / 4; }
+section #section4 { grid-row: auto; grid-column: auto; }
+             form { width: 60%; }
+   div.wrap-media { flex-direction: row; }
+            video { padding: 0 0 2em 2em; }
+}

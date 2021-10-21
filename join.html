@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- NY Giants Fan Page | Home Page | Frank James -->
+<html lang="en">
+<head>
+  <title>NY Giants :: Join</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="giants.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><a href="index.html">New York Giants Fan Page</a></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="fun.html">Videos</a></li>
+      </ul>
+    </nav>
+    <h2>Join our Fan Club!</h2>
+    <main>
+      <section class="board-home">
+        <h4><span class="huge">S</span>ign Up Today!</h4>
+        <img class="helmet" src="graphics/helmet.jpg" alt="Giants helmet" >
+        <p> 
+          The <span class="giants">New York Giants</span> Fan Club is a great way to stay up-to-date on all 
+          Big Blue football news. Receive emails with the latest scores, stats, trades, injuries, and much, much more.
+          Sign up below and become the newest true blue <span class="giants">New York Giants</span> fan club member.  
+        </p>
+      </section>
+      <div class="board">
+        <hr class="line-hist">
+        <p>Required fields are marked with an asterisk *</p>
+        <form method="get" action="results.html">
+          <label for="myFName">*First Name:</label>
+            <input type="text" name="myFName" id="myFName" required="required" placeholder="first">
+          <label for="myLName">*Last Name:</label>
+            <input type="text" name="myLName" id="myLName" required="required" placeholder="last">
+          <label for="myEmail">*E-mail:</label>
+            <input type="email" name="myEmail" id="myEmail" required="required" placeholder="email">
+          <label for="myPhone">Phone:</label>
+            <input type="tel" name="myPhone" id="myPhone" maxlength="12" placeholder="number">
+          <label for="myAge">Age:</label>
+            <input type="date" name="myAge" id="myAge">
+          <label for="myNumber">Fan Since:</label>
+            <input type="number" name="myNumber" id="myNumber" min="1925" max="2021">
+          <label for="myTeam">Team Support:</label>
+            <input type="range" name="myTeam" id="myTeam" min="1" max="10" oninput="x.value=(myTeam.value)">
+            <output name="x" for="myTeam"></output>
+          <label for="favPlayer">Favorite Player:</label>
+            <input list="myFav" name="myFav" id="favPlayer" placeholder="Eli Manning">
+            <datalist id="myFav">
+              <option value="Ottis Anderson">
+              <option value="Carl Banks">
+              <option value="Tiki Barber">
+              <option value="Saquon Barkley">
+              <option value="Odell Beckham Jr.">
+              <option value="Mark Bravaro">
+              <option value="Victor Cruz">
+              <option value="Rodney Hampton">
+              <option value="Brandon Jacobs">
+              <option value="Eli Manning">
+              <option value="Jason Pierre-Paul">
+              <option value="Phil Simms">
+              <option value="Jason Sehorn">
+              <option value="Jeremy Shockey">
+              <option value="Michael Strahan">
+              <option value="Fran Tarkenton">
+              <option value="Lawrence Taylor">
+              <option value="Amani Toomer">
+              <option value="Justin Tuck">
+            </datalist>
+          <label for="favPlay">Favorite Play:</label>
+            <select size="1" name="favPlay" id="favPlay">
+              <option>Select your favorite play</option>
+              <option value="1990">1990 Scott Norwood's kick goes "Wide Right"</option>
+              <option value="2007">2007 "The Catch" Eli Manning to David Tyree</option>
+              <option value="2011">2011 Eli Manning game winning pass to Mario Manningham</option>
+            </select>
+          <input type="submit" value="Submit">
+        </form>
+        <hr class="line-hist">
+      </div>
+    </main>
+<!-- Form Sections to be completed later in the course --> 
+    <div class="signup"><a href="join.html">Join our fan club!</a></div>
+    <footer>
+      Copyright &copy; NY Giants Fan Page<br>
+      <a href="mailto:franjames@herzing.edu" class="email">nygiantsfanpage@fan.com</a>
+    </footer>
+  </div>
+</body>
+</html>
